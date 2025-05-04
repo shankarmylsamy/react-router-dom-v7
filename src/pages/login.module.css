@@ -1,0 +1,58 @@
+.container {
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    /* height: 350px; */
+    width: 500px;
+    background-color: #ADD8E6;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+    gap: 30px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input {
+    margin-top: 10px;
+    height: 35px;
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+    text-indent: 10px;
+}
+
+.loginButton {
+    background-color: #5bb450;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.loginButton:hover {
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+    background-color: #276221;
+}
+
+.forgotPassword {
+    color: red;
+    display: flex;
+    cursor: pointer;
+    margin-top: 0px;
+    text-decoration: none;
+}
